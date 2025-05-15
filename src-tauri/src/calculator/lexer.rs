@@ -1,9 +1,12 @@
 use tauri::Position;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone,PartialEq)]
 pub enum Tokentype{
     Number,
     Operator,
+    OpenParen,
+    CloseParen,
+    EoF
 }
 #[derive(Debug, Clone)]
 pub struct Token {
@@ -58,14 +61,28 @@ impl Lexer {
                     }
                     '0'..='9' => {
                         let mut num = String::new();
-                        if let Some(digit) = self.at() {
-                            while digit.is_ascii_digit() {
-                                num.push(digit);
+                        while let Some(c) = self.at(){
+                            if c.is_ascii_digit() {
+                                num.push(c);
                                 self.advance();
+                            }else {
+                                break
                             }
-                        }else {
-                            break;
                         }
+                        tokens.push(Token::new(num, Tokentype::Number))
+                    }
+                    '(' => {
+                        self.advance();
+                        tokens.push(Token::new("(".to_string(), Tokentype::OpenParen))
+                    }
+
+                    ')' => {
+                        self.advance();
+                        tokens.push(Token::new(")".to_string(), Tokentype::CloseParen))
+                    }
+
+                    '\n' | ' ' | '\r' | '\t' => {
+                        self.advance();
                     }
                     _ => {
                         panic!("Unexpected token");
@@ -73,6 +90,7 @@ impl Lexer {
                 }
             }
         }
+        tokens.push(Token::new("EndOfFile".to_string(),Tokentype::EoF));
         tokens
     }
 }

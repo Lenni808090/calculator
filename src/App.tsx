@@ -1,14 +1,13 @@
 
 import "./App.css";
+import { ExpressionParser } from './components/ExpressionParser';
 
 function App() {
-
   return (
-    <main className="container">
-      <h1>Welcome to Calculator</h1>
-
-
-    </main>
+    <div>
+      <h1>Expression Parser</h1>
+      <ExpressionParser />
+    </div>
   );
 }
 
