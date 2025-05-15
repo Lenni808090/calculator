@@ -67,16 +67,32 @@ impl Parser{
 
         left
     }
+    
+    fn parse_power_expr(&mut self) -> Expr{
+        
+        let mut left = self.parse_primary_expr();
+        let token = self.at();
+        while ["^"].contains(&self.at().value.as_str()){
+            let operator = self.eat().value;
+            let right = self.parse_primary_expr();
+            left = Expr::BinaryExpr {
+                left: Box::new(left),
+                operator,
+                right: Box::new(right),
+            };
+        }
 
+        left
+    }
 
 
     fn parse_multiplicitive_expr(&mut self) -> Expr{
-        let mut left = self.parse_primary_expr();
+        let mut left = self.parse_power_expr();
         
         let token = self.at();
-        while ["*", "/", "^"].contains(&self.at().value.as_str()) {
+        while ["*", "/"].contains(&self.at().value.as_str()) {
             let operator = self.eat().value;
-            let right = self.parse_primary_expr();
+            let right = self.parse_power_expr();
             left = Expr::BinaryExpr {
                 left: Box::new(left),
                 operator,

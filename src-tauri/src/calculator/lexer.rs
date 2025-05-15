@@ -65,8 +65,10 @@ impl Lexer {
                             if c.is_ascii_digit() {
                                 num.push(c);
                                 self.advance();
-                            }else {
-                                break
+                            }else if c == '\n' ||c == ' ' ||c == '\r' ||c == '\t' {
+                                self.advance();
+                            } else {
+                                break;
                             }
                         }
                         tokens.push(Token::new(num, Tokentype::Number))

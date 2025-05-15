@@ -15,7 +15,6 @@ export default function ExpressionParser() {
     const exponentRefs = useRef<(HTMLInputElement | null)[]>([]);
     const [calculationResult, setCalculationResult] = useState<string>('');
 
-    // Debug state to see what's happening
     const [lastAction, setLastAction] = useState<string>('None');
 
     useEffect(() => {
@@ -29,7 +28,6 @@ export default function ExpressionParser() {
 
         if (focusedExpIndex !== null) {
             const updatedElements = [...elements];
-            if (typeof updatedElements[focusedExpIndex] !== 'string') {
                 const element = updatedElements[focusedExpIndex] as ExponentElement;
                 updatedElements[focusedExpIndex] = {
                     ...element,
@@ -41,8 +39,8 @@ export default function ExpressionParser() {
                 if (exponentRefs.current[focusedExpIndex]) {
                     exponentRefs.current[focusedExpIndex]?.focus();
                 }
-            }
-        } else if (cursorPosition !== -1) {
+
+        } else if (cursorPosition !== -2) {
             const updatedElements = [
                 ...elements.slice(0, cursorPosition + 1),
                 digit,
@@ -51,10 +49,6 @@ export default function ExpressionParser() {
             setElements(updatedElements);
             setCursorPosition(cursorPosition + 1); 
             setLastAction(`Added ${digit} at cursor position ${cursorPosition}`);
-        } else {
-            setElements([...elements, digit]);
-            setCursorPosition(elements.length); 
-            setLastAction(`Added ${digit} to main expression`);
         }
     };
 
@@ -171,11 +165,13 @@ export default function ExpressionParser() {
         if (direction === 'left') {
             if (cursorPosition > -1) {
                 setCursorPosition(cursorPosition - 1);
+                setFocusedExpIndex(null);
                 setLastAction(`Moved cursor left to position ${cursorPosition - 1}`);
             }
         } else if (direction === 'right') {
             if (cursorPosition < elements.length - 1) {
                 setCursorPosition(cursorPosition + 1);
+                setFocusedExpIndex(null);
                 setLastAction(`Moved cursor right to position ${cursorPosition + 1}`);
             }
         } else if (direction === 'up' && cursorPosition !== -1 && focusedExpIndex === null) {
@@ -195,14 +191,14 @@ export default function ExpressionParser() {
             <div className="expression-display">
                 {elements.map((el, index) =>
                     typeof el === 'string' ? (
-                        <span key={index} className={`mx-1 select-none ${cursorPosition === index ? 'bg-yellow-200' : ''}`}>
+                        <span key={index} className={`mx-1 select-none ${cursorPosition === index ? 'highlight' : ''}`}>
                             {el}
                             {cursorPosition === index && (
                                 <span className="cursor-indicator">|</span>
                             )}
                         </span>
                     ) : (
-                        <span key={index} className={`inline-flex items-start mx-1 ${cursorPosition === index ? 'bg-yellow-200' : ''}`}>
+                        <span key={index} className={`inline-flex items-start mx-1 ${cursorPosition === index && focusedExpIndex !== index ? 'highlight' : ''}`}>
                             <span className="select-none">{el.base}</span>
                             <span className="inline-block relative -top-3 text-sm ml-1">
                                 <input
@@ -212,7 +208,7 @@ export default function ExpressionParser() {
                                     }`}
                                     style={{
                                         width: `${Math.max(1, el.exponent.length) * 0.6 + 0.8}em`,
-                                        caretColor: 'black' // Macht den Cursor in Eingabefeldern sichtbar
+                                        caretColor: 'black'
                                     }}
                                     value={el.exponent}
                                     onChange={(e) => updateExponent(index, e.target.value)}
@@ -263,7 +259,7 @@ export default function ExpressionParser() {
 
             <div className="button-grid">
                 {/* Digits */}
-                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 0].map((digit) => (
+                {[7, 8, 9, 4, 5, 6, 1, 2, 3, 0].map((digit) => (
                     <button
                         key={digit}
                         className="expression-button"
@@ -289,7 +285,7 @@ export default function ExpressionParser() {
                     className="expression-button exp-button"
                     onMouseDown={addExponent}
                 >
-                    exp
+                    x<sup>y</sup>
                 </button>
 
                 {/* Equals button */}
@@ -306,7 +302,6 @@ export default function ExpressionParser() {
                 >
                     DEL
                 </button>
-
             </div>
 
             <div className="debug-info">
@@ -319,9 +314,12 @@ export default function ExpressionParser() {
                 <strong>Parsed Expression:</strong> {parsedString}
             </div>
 
-            <div className="parsed-expression">
-                <strong>Calculated Expression:</strong> {calculationResult}
-            </div>
+            {calculationResult && (
+                <div className="calculation-result">
+                    <strong>Result:</strong>
+                    <pre>{calculationResult}</pre>
+                </div>
+            )}
         </div>
     );
 }
