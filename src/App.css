@@ -241,3 +241,2435 @@
   from, to { opacity: 1; }
   50% { opacity: 0; }
 }
+
+/* Equals button styling */
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3;
+}
+
+.calculation-result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.equals-button {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+}
+
+.equals-button:hover {
+    background-color: #4338ca;
+}
+
+.equals-button:active {
+    background-color: #3730a3

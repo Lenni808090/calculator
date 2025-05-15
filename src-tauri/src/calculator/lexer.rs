@@ -55,7 +55,7 @@ impl Lexer {
         while !self.is_at_end() {
             if let Some(c) = self.at() {
                 match c {
-                    '+' | '-' | '*' | '/' => {
+                    '+' | '-' | '*' | '/' | '^' => {
                         tokens.push(Token::new(c.to_string(), Tokentype::Operator));
                         self.advance();
                     }

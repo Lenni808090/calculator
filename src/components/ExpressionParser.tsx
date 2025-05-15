@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { invoke } from '@tauri-apps/api/core';
 
 type ExponentElement = {
     base: string;
@@ -12,6 +13,7 @@ export default function ExpressionParser() {
     const [focusedExpIndex, setFocusedExpIndex] = useState<number | null>(null);
     const [cursorPosition, setCursorPosition] = useState<number>(-1);
     const exponentRefs = useRef<(HTMLInputElement | null)[]>([]);
+    const [calculationResult, setCalculationResult] = useState<string>('');
 
     // Debug state to see what's happening
     const [lastAction, setLastAction] = useState<string>('None');
@@ -53,6 +55,19 @@ export default function ExpressionParser() {
             setElements([...elements, digit]);
             setCursorPosition(elements.length); 
             setLastAction(`Added ${digit} to main expression`);
+        }
+    };
+
+    const handleEquals = async (): Promise<void> => {
+        try {
+            const expressionString = parseExpression(elements);
+            const result = await invoke('parse_expression', { input: expressionString });
+            setCalculationResult(result as string);
+            setLastAction(`Calculated expression: ${expressionString}`);
+        } catch (error) {
+            console.error('Error calculating expression:', error);
+            setCalculationResult(`Error: ${error}`);
+            setLastAction(`Error calculating expression`);
         }
     };
 
@@ -126,16 +141,11 @@ export default function ExpressionParser() {
             const updatedElements = [...elements];
             updatedElements.splice(cursorPosition, 1);
             setElements(updatedElements);
+
+            setCursorPosition(Math.max(-1, cursorPosition - 1));
             setLastAction(`Deleted element at cursor position ${cursorPosition}`);
-            
-            // Keep cursor at the same position unless we're at the end
-            if (cursorPosition >= updatedElements.length) {
-                setCursorPosition(Math.max(-1, updatedElements.length - 1));
-            }
-            // Don't move cursor after deletion - this makes it "eat" the deleted number
         } else {
-            setElements(elements.slice(0, -1));
-            setLastAction('Deleted last element from expression');
+            setLastAction('Cant delete nothing');
         }
     };
 
@@ -280,12 +290,21 @@ export default function ExpressionParser() {
                     exp
                 </button>
 
+                {/* Equals button */}
+                <button
+                    className="expression-button equals-button"
+                    onClick={handleEquals}
+                >
+                    =
+                </button>
+
                 <button
                     className="expression-button delete-button"
                     onClick={handleDelete}
                 >
                     DEL
                 </button>
+
             </div>
 
             <div className="debug-info">
@@ -297,6 +316,12 @@ export default function ExpressionParser() {
             <div className="parsed-expression">
                 <strong>Parsed Expression:</strong> {parsedString}
             </div>
+
+            <div className="parsed-expression">
+                <strong>Calculated Expression:</strong> {calculationResult}
+            </div>
         </div>
     );
 }
+
+

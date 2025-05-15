@@ -45,6 +45,9 @@ fn calculate_binary_expr(left: &Expr, right: &Expr, operator: &String) -> f64 {
         "*" => {
             left_val * right_val
         }
+        "^" => {
+            left_val.powf(right_val)
+        }
         _ => {
             panic!("Unkown Operator");
         }

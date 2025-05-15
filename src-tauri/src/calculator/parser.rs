@@ -74,7 +74,7 @@ impl Parser{
         let mut left = self.parse_primary_expr();
         
         let token = self.at();
-        while ["*", "/"].contains(&self.at().value.as_str()) {
+        while ["*", "/", "^"].contains(&self.at().value.as_str()) {
             let operator = self.eat().value;
             let right = self.parse_primary_expr();
             left = Expr::BinaryExpr {
