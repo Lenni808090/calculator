@@ -76,19 +76,21 @@ export default function ExpressionParser() {
 
         if (elements.length === 0) return;
 
-        const lastIndex = elements.length - 1;
-        const lastElement = elements[lastIndex];
+        const targetIndex = cursorPosition !== -1? cursorPosition : elements.length - 1;
+        const lastElement = elements[targetIndex];
 
         if (typeof lastElement === 'string') {
-            const newElements = [
-                ...elements.slice(0, -1),
-                { base: lastElement, exponent: '' } as ExponentElement
+            const updatedElements = [
+                ...elements.slice(0, cursorPosition),
+                { base: lastElement, exponent: '' },
+                ...elements.slice(cursorPosition + 1)
             ];
 
-            setElements(newElements);
+            setElements(updatedElements);
+            setLastAction(`Created exponent for base ${lastElement}`);
             setLastAction(`Created exponent for base ${lastElement}`);
 
-            setFocusedExpIndex(newElements.length - 1);
+            setFocusedExpIndex(updatedElements.length - 1);
         }
     };
 
