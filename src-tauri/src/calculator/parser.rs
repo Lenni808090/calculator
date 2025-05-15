@@ -11,7 +11,7 @@ pub enum Expr{
 }
 
 pub struct Parser{
-    tokens: Vec<Token>,
+    pub tokens: Vec<Token>,
 }
 
 impl Parser{

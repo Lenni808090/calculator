@@ -1,9 +1,10 @@
 
 mod calculator;
 
+use std::ptr::read;
 use calculator::lexer::{Lexer};
 use calculator::parser::{Parser};
-
+use crate::calculator::calculate::calculate;
 
 #[tauri::command]
 fn parse_expression(input: &str) -> String {
@@ -12,7 +13,9 @@ fn parse_expression(input: &str) -> String {
     let tokens = lexer.tokenize();
     let mut parser = Parser::new(tokens);
     let ast = parser.parse();
-    format!("{:#?}", ast)
+    let result = calculate(&ast);
+    format!("AST:\n{:#?}\n\nErgebnis: {}", &ast, result)
+
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]

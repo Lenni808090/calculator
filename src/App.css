@@ -1,116 +1,243 @@
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
+.expression {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  min-height: 40px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafb);
-}
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #0f0f0f;
-  background-color: #f6f6f6;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.exponent-group {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-start;
+  vertical-align: baseline;
 }
 
-.container {
-  margin: 0;
-  padding-top: 10vh;
+.base {
+  display: inline-block;
+  position: relative;
+}
+
+.exponent {
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 0.6em;
+  line-height: 1;
+  margin-left: 0.1em;
+  vertical-align: top;
+}
+
+.exponent-input {
+  width: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  font-size: inherit;
+  padding: 0 2px;
+  outline: none;
+  position: relative;
+  top: -0.7em;
+  font-size: 0.7em;
+}
+
+.controls {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  gap: 8px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: 0.75s;
-}
-
-.logo.tauri:hover {
-  filter: drop-shadow(0 0 2em #24c8db);
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
-}
-
-h1 {
-  text-align: center;
-}
-
-input,
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  color: #0f0f0f;
-  background-color: #ffffff;
-  transition: border-color 0.25s;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-button {
+.controls button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
   cursor: pointer;
 }
 
-button:hover {
-  border-color: #396cd8;
-}
-button:active {
-  border-color: #396cd8;
-  background-color: #e8e8e8;
+.controls button:hover {
+  background: #f5f5f5;
 }
 
-input,
-button {
+.exp-button {
+  background-color: #f0f0f0;
+}
+
+.exponent-input:focus {
+  border: 1px solid blue;
+  background-color: #eef;
+}
+
+/* Main container styling */
+.expression-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 42rem;
+  margin: 2rem auto;
+}
+
+/* Expression display area */
+.expression-display {
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #f9fafb;
+  overflow-x: auto;
+}
+
+/* Button styling */
+.expression-button {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.expression-button:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.expression-button:active {
+  background-color: #f3f4f6;
+}
+
+.expression-button:focus {
   outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
 
-#greet-input {
-  margin-right: 5px;
+/* Operator button styling */
+.operator-button {
+  background-color: #f9fafb;
+  color: #2563eb;
+  font-weight: 700;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #f6f6f6;
-    background-color: #2f2f2f;
-  }
+/* Exponent button styling */
+.exp-button {
+  background-color: #eff6ff;
+  color: #2563eb;
+  font-weight: 700;
+}
 
-  a:hover {
-    color: #24c8db;
-  }
+.exp-button:hover {
+  background-color: #dbeafe;
+}
 
-  input,
-  button {
-    color: #ffffff;
-    background-color: #0f0f0f98;
+.exp-button:active {
+  background-color: #bfdbfe;
+}
+
+/* Exponent input styling */
+.exponent-input {
+  outline: none;
+  padding: 0 0.25rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s;
+  min-width: 1.5em;
+}
+
+.exponent-input:focus {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+  box-shadow: 0 0 0 2px #bfdbfe;
+}
+
+/* Debug info area */
+.debug-info {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+/* Parsed expression area */
+.parsed-expression {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #1f2937;
+  color: white;
+  border-radius: 0.5rem;
+  font-family: monospace;
+}
+
+/* Button grid layout */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .button-grid {
+    grid-template-columns: repeat(5, 1fr);
   }
-  button:active {
-    background-color: #0f0f0f69;
+}
+
+@media (min-width: 1024px) {
+  .button-grid {
+    grid-template-columns: repeat(6, 1fr);
   }
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #fee2e2;
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.delete-button:hover {
+  background-color: #fecaca;
+}
+
+.delete-button:active {
+  background-color: #fca5a5;
+}
+
+.navigation-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.horizontal-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    min-width: 3rem;
+}
+
+.cursor-indicator {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
 }
